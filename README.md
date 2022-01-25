@@ -3,3 +3,9 @@
 ### The paper can be found in: [Multi-Scale Kronecker-Product Relation Networks for Few-Shot Learning](https://link.springer.com/article/10.1007/s11042-021-11735-w) 
 
 ![ScreenShot](/images/framework.png)
+
+## Requirements
+
+* Pytorch 1.4.0
+* Torchvision 0.5.0
+* At least 1 GPU
