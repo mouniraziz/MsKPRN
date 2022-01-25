@@ -57,7 +57,7 @@ class KronRelationNets(nn.Module):
         self.fc1 = nn.Linear(64,8)
         self.fc2 = nn.Linear(8,1)
 
-        self.global_ave_pooling = nn.AdaptiveAvgPool2d([10,10])
+        self.global_pooling = nn.AdaptiveAvgPool2d([10,10])
 
     def kron_matching(self, *inputs):
         assert len(inputs) == 2
@@ -72,8 +72,8 @@ class KronRelationNets(nn.Module):
         return x
 
     def forward(self, query, support):
-        x = self.global_ave_pooling(query)
-        y = self.global_ave_pooling(support)
+        x = self.global_pooling(query)
+        y = self.global_pooling(support)
         b,c,h,w= x.size()
         x = l2normalize(x.view(b,c,h*w)).view(b,c,h,w)
         y = l2normalize(y.view(b,c,h*w)).view(b,c,h,w)
