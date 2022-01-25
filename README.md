@@ -1,1 +1,1 @@
-# MsKPRN
+# Multi-Scale Kronecker-Product Relation Networks for Few-Shot Learning
