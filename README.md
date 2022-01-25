@@ -20,9 +20,7 @@
 ## Citation
 If you find our code useful for your research, please consider citing it using the bibtex:
 
-Markup : ```javascript
-         ```
-
+```
 @ARTICLE{Abdelaziz2022-yc,
   title     = "Multi-scale kronecker-product relation networks for few-shot
                learning",
@@ -33,7 +31,7 @@ Markup : ```javascript
   year      =  2022,
   language  = "en"
 }
-
+```
 ## References 
 
 * [Relation Networks](https://github.com/floodsung/LearningToCompare_FSL)
