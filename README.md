@@ -19,15 +19,15 @@
 If you find our code useful for your research, please consider citing it using the bibtex:
 
 ```
-@ARTICLE{Abdelaziz2022-yc,
-  title     = "Multi-scale kronecker-product relation networks for few-shot
-               learning",
-  author    = "Abdelaziz, Mounir and Zhang, Zuping",
-  journal   = "Multimed. Tools Appl.",
-  publisher = "Springer Science and Business Media LLC",
-  month     =  jan,
-  year      =  2022,
-  language  = "en"
+@article{abdelaziz2022multi,
+  title={Multi-scale kronecker-product relation networks for few-shot learning},
+  author={Abdelaziz, Mounir and Zhang, Zuping},
+  journal={Multimedia Tools and Applications},
+  volume={81},
+  number={5},
+  pages={6703--6722},
+  year={2022},
+  publisher={Springer}
 }
 ```
 ## References 
